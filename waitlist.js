@@ -1,13 +1,9 @@
-/* ===================== LabelBudget — Waitlist (0 EUR) =====================
- * Fonctionne 100% hors-ligne : stocke les leads dans le navigateur (IndexedDB)
- * et propose l'export. Pour la PROD (quand tu déploies sur GitHub Pages),
- * branche Formspree (gratuit, 50 leads/mois, sans CB) :
- *   1. Crée un compte sur formspree.io
- *   2. Remplace FORMSPREE_ID par ton ID (ex. "x" + 7 lettres)
- *   3. Le formulaire envoie alors les leads par email automatiquement.
- * Tant que FORMSPREE_ID est vide, on reste en mode local (aucun envoi externe).
+/* ===================== LabelBudget — Waitlist =====================
+ * Envoie les leads vers Formspree (endpoint Luca Lotti / lottilabs).
+ * Fallback local (IndexedDB) si hors-ligne ou erreur réseau.
+ * Endpoint : https://formspree.io/f/xwvgnvyl
  */
-const FORMSPREE_ID = ""; // <- mets ton ID Formspree ici quand tu es prêt
+const FORMSPREE_ID = "xwvgnvyl";
 
 const DB_NAME = 'labelbudget_waitlist';
 let db;
