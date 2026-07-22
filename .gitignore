@@ -1,0 +1,4 @@
+# Ne jamais pousser les identifiants
+VAULT.md
+identity/
+../identity/
