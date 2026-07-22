@@ -1,67 +1,63 @@
-# Contenus de lancement LabelBudget (0 €, marketing gratuit)
+# Contenus de lancement LabelBudget — PIVOT B (0 €, marketing gratuit)
 
-Stratégie : utiliser ta position de manager d'un artiste R'n'B en devenir comme
-preuve sociale et canal d'acquisition. Tu parles le langage, l'audience vient
-avec la carrière de l'artiste. 3 formats, prêts à publier.
+Angle : **« Avant de dépenser 1 € sur ta musique, sais-tu quand tu le récupères ? »**
+Le calculateur break-even (gratuit, sans compte) est l'appât. La waitlist est la
+conversion. Lien : https://lottilabs-blip.github.io/labelbudget-landing/breakeven.html
 
 ────────────────────────────────────────────────────────
-## 1. SCRIPT REEL / TIKTOK (30–45 s) — « Combien ça COÛTE vraiment un single ? »
+## 1. REEL / TIKTOK (30–45 s) — « 1500 € de studio = combien de streams ? »
 ────────────────────────────────────────────────────────
 [Plan visuel : toi au studio ou devant ordi, ou l'artiste en session]
 
-Texte (parlé, ton détendu / « manager qui partage ses coulisses ») :
+Texte (ton « manager qui partage ses coulisses ») :
 --------------------------------------------------
-« T'as un titre dans la tête. Mais t'as calculé combien ça te coûte vraiment ?
-Studio, prod, clip, marketing… la plupart des artistes claquent 2 000 à 5 000 €
-sans savoir s'ils vont jamais les rentrer.
+« T'as 1 500 € à mettre dans ton projet. Studio, clip, promo.
+Mais t'as calculé combien de streams il faut pour les rentrer ?
 
-Moi je gère un artiste R'n'B, et j'ai construit un outil pour ça :
-LabelBudget. Tu rentres ton budget poste par poste, et il te dit
-SI le projet est rentable — streaming, ventes, sponsoring.
+Spoiler : à 0,0032 € le stream Spotify, faut viser ~328 000 streams.
+Soit 375 titres vendus. Soit 1 concert.
 
-(regard caméra)
-Exemple concret : un single à 1 800 € de coût, avec 6 640 € de revenus
-modélisés → +4 840 € de bénéfice. Marge 72 %.
+La plupart des artistes claquent le cash sans savoir ça. Moi je gère un
+artiste R'n'B, et j'ai fait un calculateur gratuit qui part de TON budget
+et te dit le break-even : streams, ventes, concerts.
 
-C'est gratuit. Lien en bio, et il y a une waitlist pour la version Pro. »
+Teste-le, lien en bio. 10 secondes, sans inscription. »
 --------------------------------------------------
-Accroche titre : « Le vrai coût d'un single (et si t'es dans le rouge) 📉 »
-Hashtags : #musicbusiness #rnb #artistmanager #independentartist #musicprod
-CTA : « Teste LabelBudget — lien en bio »
+Accroche : « 1500€ en studio = 328 000 streams pour être à 0 📉 »
+Hashtags : #musicbusiness #rnb #artistmanager #independentartist #musicprod #breakingeven
+CTA : « Calculateur gratuit — lien en bio »
 
 ────────────────────────────────────────────────────────
-## 2. POSTE CARROUSEL INSTAGRAM / LINKEDIN — « 5 postes que tout artiste oublie »
+## 2. CARROUSEL INSTAGRAM / LINKEDIN — « Le break-even que personne ne calcule »
 ────────────────────────────────────────────────────────
-Slide 1 : « 5 postes de budget que 90 % des artistes oublient »
-Slide 2 : Studio / Prod — évident, mais le tarif horaire ça compte.
-Slide 3 : Visuel / Clip — souvent LE plus gros poste. Prévois-le.
-Slide 4 : Marketing — ads, playlisting, pub. Sans ça, personne n'entend.
-Slide 5 : Distribution + Légal (SPEC, copyright) — petit mais vital.
-Slide 6 : Divers — imprévus = 10 % du budget. Toujours.
-Slide 7 (CTA) : « LabelBudget fait ça en 2 min. Lien en bio + waitlist. »
+Slide 1 : « Tu vas dépenser combien sur ta prochaine sortie ? Voici le break-even. »
+Slide 2 : Studio/Prod — 2 000 € → 625 000 streams pour être à 0.
+Slide 3 : Clip — 1 500 € → 469 000 streams (ou 5 concerts à 300 €).
+Slide 4 : Promo/Playlisting — 500 € → 156 000 streams.
+Slide 5 : Le vrai coût = la SOMME. 1 projet = souvent 300k–800k streams avant l'équilibre.
+Slide 6 (CTA) : « LabelBudget te le calcule en 10 sec. Lien en bio + waitlist. »
 
 ────────────────────────────────────────────────────────
-## 3. ARTICLE DE BLOG / THREAD (SEO) — « Comment savoir si ton projet musical est rentable »
+## 3. THREAD X / ARTICLE — « Le seuil de rentabilité que j'impose à mes artistes »
 ────────────────────────────────────────────────────────
-Titre : « Seuil de rentabilité pour un artiste indé : la formule que j'utilise »
+Titre : « Pourquoi j'interdis à mes artistes de dépenser 1 € sans ça »
 Sommaire :
-  - Pourquoi ton Excel ne suffit pas
-  - Les 3 sources de revenus (streaming / ventes / sponsoring) et leurs tarifs réels
-  - La formule du seuil de rentabilité (coût ÷ revenus visés)
-  - Un exemple chiffré (single, 1 800 € → +4 840 €)
-  - L'outil que j'utilise (LabelBudget, gratuit)
-CTA fin : waitlist + lien outil.
-
-Mots-clés visés : « budget projet musical », « rentabilité artiste indépendant »,
-« combien coûte un single », « simulateur revenus streaming ».
+  - Le piège : on sort la carte sans savoir quand on récupère
+  - Les payouts réels 2025 (Spotify 0,0032 €/stream, vente 0,80 €)
+  - La formule du break-even (investissement ÷ revenu par unité)
+  - Exemple chiffré (1 500 € → 328k streams, 9,4 mois à 50k/mois)
+  - L'outil gratuit que j'utilise (LabelBudget, calculateur live)
+CTA fin : calculateur + waitlist.
+Mots-clés : « break-even musicien », « combien de streams pour rentrer dans ses frais »,
+« rentabilité projet musical », « budget musicien indépendant ».
 
 ────────────────────────────────────────────────────────
-## CALENDRIER SUGGÉRÉ (semaine 1, 0 €)
+## CALENDRIER (semaine 1, 0 €)
 ────────────────────────────────────────────────────────
-- Lundi : Reel TikTok/IG (contenu 1)
+- Lundi : Reel TikTok/IG (contenu 1) → lien breakeven.html
 - Mercredi : Carrousel Instagram (contenu 2)
-- Vendredi : Thread Twitter/X + article blog (contenu 3)
-- Tous les jours : 1 story « coulisses manager » avec lien bio LabelBudget
-- Objectif : > 20 inscrits waitlist → DÉCLENCHE l'achat du domaine (étape A).
+- Vendredi : Thread X + article (contenu 3)
+- Chaque jour : 1 story « coulisses manager » avec lien bio LabelBudget
+- Objectif : > 20 inscrits waitlist → DÉCLENCHE l'achat du domaine (~12 €).
 
-Mesure : screenshot le compteur de waitlist chaque soir.
+Mesure : compteur waitlist + captures. On affiche les vrais chiffres, pas de fake.
