@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LabelBudget — Break-even : avant de dépenser 1 €</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0a0a0f;--card:#14141c;--grad:linear-gradient(135deg,#7c3aed,#22d3ee);--green:#22c55e;--warn:#f59e0b;--txt:#e7e7ea;--mut:#9a9aa6}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.5;padding:32px 16px}
+  .wrap{max-width:720px;margin:0 auto}
+  .brand{font-weight:900;font-size:22px;margin-bottom:8px}
+  .brand span{color:#a855f7}
+  h1{font-size:30px;font-weight:900;line-height:1.15;margin:18px 0 6px}
+  h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lead{color:var(--mut);margin-bottom:26px}
+  .card{background:var(--card);border:1px solid #23232f;border-radius:16px;padding:22px;margin-bottom:18px}
+  label{display:block;font-size:13px;color:var(--mut);margin:14px 0 6px}
+  input[type=number]{width:100%;background:#0e0e14;border:1px solid #2a2a38;border-radius:10px;color:var(--txt);font-size:18px;padding:12px 14px;font-weight:600}
+  .mix{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+  .mix input{font-size:15px;padding:10px}
+  .head{font-weight:800;font-size:18px;margin-bottom:12px}
+  .grid3{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .out{background:#0e0e14;border:1px solid #2a2a38;border-radius:12px;padding:14px}
+  .out b{display:block;font-size:22px;font-weight:900;color:#fff;margin-top:4px}
+  .out span{font-size:12px;color:var(--mut)}
+  .feas{margin-top:14px;padding:12px;border-radius:10px;font-weight:700;text-align:center}
+  .feas.ok{background:rgba(34,197,94,.12);color:var(--green)}
+  .feas.warn{background:rgba(245,158,11,.12);color:var(--warn)}
+  .note{font-size:12px;color:var(--mut);margin-top:8px}
+  .cta{display:inline-block;background:var(--grad);color:#fff;font-weight:800;text-decoration:none;padding:14px 22px;border-radius:12px;margin-top:6px}
+  footer{margin-top:30px;color:var(--mut);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><span>◈</span> LabelBudget</div>
+  <h1>Avant de dépenser <span class="grad">1 €</span> sur ta musique,<br>sais-tu quand tu le récupères ?</h1>
+  <p class="lead">Le seul calculateur qui part de ton <b>investissement</b>, pas de tes streams. Combien il faut vraiment de streams / ventes / concerts pour être à l'équilibre — selon les payouts réels 2025.</p>
+
+  <div class="card">
+    <label>Combien veux-tu investir sur ce projet ?</label>
+    <input type="number" id="inv" value="1500" min="0" step="50">
+    <div class="mix">
+      <div><label>% Streaming</label><input type="number" id="mixS" value="70" min="0" max="100"></div>
+      <div><label>% Ventes</label><input type="number" id="mixV" value="20" min="0" max="100"></div>
+      <div><label>% Concerts</label><input type="number" id="mixSh" value="10" min="0" max="100"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="head" id="outHead">Pour récupérer ton investissement :</div>
+    <div class="grid3">
+      <div class="out"><span>Streams Spotify nécessaires</span><b id="outStreams">—</b></div>
+      <div class="out"><span>Titres vendus (0,80 €)</span><b id="outSingles">—</b></div>
+      <div class="out"><span>Albums vendus (6 €)</span><b id="outAlbums">—</b></div>
+      <div class="out"><span>Concerts (300 € net)</span><b id="outShows">—</b></div>
+      <div class="out"><span>Rythme de récup</span><b id="outMonths">—</b></div>
+      <div class="out"><span>Verdict</span><b id="feas" style="font-size:15px">—</b></div>
+    </div>
+    <p class="note">Payouts moyens 2025 : Spotify 0,0032 €/stream · Apple 0,008 € · vente titre 0,80 € (distributeur déduit). Estimations à titre indicatif.</p>
+  </div>
+
+  <a class="cta" href="index.html#waitlist">🚀 Rejoins la waitlist (outil complet bientôt)</a>
+  <footer>LabelBudget — le pilotage financier des projets musicaux, pensé par un manager. <a href="index.html" style="color:#a855f7">← landing</a></footer>
+</div>
+<script src="breakeven.js"></script>
+</body>
+</html>
